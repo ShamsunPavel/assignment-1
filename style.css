@@ -13,15 +13,16 @@ header{
 }
 
 .logo{
-    flex-basis: 20%;
+    flex-basis: 25%;
 }
 
 .menu{
-    flex-basis: 60%;
+    flex-basis: 50%;
 }
 
 .buttons{
-    flex-basis: 20%;
+    flex-basis: 25%;
+    text-align: right;
 }
 
 ul{
@@ -39,4 +40,21 @@ li{
 
 .main-part{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #0e72cc;
+    background-color: #0e72cc;
+    color: white;
+    cursor: pointer; 
+}
+
+a{
+    color: #0665c4;
+    text-decoration: none;
 }
